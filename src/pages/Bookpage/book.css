@@ -1,0 +1,80 @@
+.books {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  background-image: url('/n.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  gap: 75px;
+}
+
+.shoplist img {
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.shoplist {
+  width: 260px;
+  height: 270px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(185, 185, 193);
+  position: relative;
+  padding: 20px;
+  top: 100px;
+  background-color: white;
+}
+.bookbat img {
+  width: 100%;
+  height: 300px;
+  border-radius: 18px;
+}
+.bookbat {
+  width: 500px;
+  height: 580px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(94, 94, 109);
+  position: relative;
+  background-color: white;
+  top: 20px;
+}
+.shoplist h1 {
+  margin-left: 25px;
+}
+.bookbat h2 {
+  padding: 5px;
+  margin-left: 40px;
+}
+
+.btnbook {
+  margin-top: 40px;
+  margin-left: 80px;
+  width: 300px;
+  height: 40px;
+}
+.btnbook:hover {
+  background-color: red;
+}
+.select {
+  width: 300px;
+  margin-left: 50px;
+  height: 30px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px 2px rgb(68, 68, 73);
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+}
+.psel option {
+  background-color: black;
+  color: aliceblue;
+  font-weight: 100px;
+  font-size: larger;
+}

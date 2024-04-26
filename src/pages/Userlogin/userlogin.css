@@ -1,0 +1,32 @@
+.userlog {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url('/bb.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.userinput {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(185, 185, 193);
+}
+.userloginbtn {
+  margin-left: 100px;
+  margin-top: 10px;
+  width: 140px;
+}
+.userlog h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+.userloginbtn:hover {
+  background-color: rgb(4, 56, 71);
+}
